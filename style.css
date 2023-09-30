@@ -1,3 +1,20 @@
 body{
-    background-color: aqua;
+    background-color: yellow;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,tr,td{
+    border: 2px solid black;
+}
+/* tr{
+    border:2px solid black;
+}
+td{
+    border:2px solid black;
+} */
+thead th{
+    color:black;
 }
