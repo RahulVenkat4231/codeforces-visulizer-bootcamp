@@ -125,7 +125,7 @@ async function handleSubmit(e) {
                 heatmap[submissionDate.valueOf()] = 1
             }
             else {
-                heatmap[submissionDate, valueOf()] += 1;
+                heatmap[submissionDate.valueOf()] += 1;
             }
         }
         console.log(verdict);
